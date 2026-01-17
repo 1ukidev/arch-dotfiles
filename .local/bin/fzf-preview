@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+FILE="$1"
+if mimetype "$FILE" | grep -q 'image/'; then
+    kitten icat --clear --transfer-mode=memory --stdin=no --place=${FZF_PREVIEW_COLUMNS}x${FZF_PREVIEW_LINES}@0x0 "$FILE"
+else
+    bat --color=always --theme=base16 "$FILE"
+fi

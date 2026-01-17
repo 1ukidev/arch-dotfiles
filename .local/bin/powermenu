@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+options="Poweroff\nReboot\nSuspend\nHibernate\nExit"
+
+choice=$(echo -e "$options" | wofi -d -i -p "")
+
+case "$choice" in
+    "Poweroff")
+        systemctl poweroff
+        ;;
+    "Reboot")
+        systemctl reboot
+        ;;
+    "Suspend")
+        systemctl suspend
+        ;;
+    "Hibernate")
+        systemctl hibernate
+        ;;
+    "Exit")
+        hyprctl dispatch exit
+        ;;
+esac

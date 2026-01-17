@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+FILE=$(find "$HOME/Pictures/Wallpapers/." -type f | shuf -n 1)
+$HOME/.local/bin/changebg "$FILE"

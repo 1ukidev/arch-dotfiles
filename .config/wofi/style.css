@@ -1,0 +1,58 @@
+@import url(".cache/wal/colors-waybar.css");
+
+* {
+    font-family: "sans-serif";
+}
+
+window {
+    margin: 12px;
+    padding: 10px;
+    border: 1px solid alpha(@foreground, 0.05);
+    border-radius: 12px;
+    background-color: alpha(@background, 0.9);
+    color: @foreground;
+}
+
+#outer-box {
+    padding: 6px;
+}
+
+#inner-box {
+    padding: 4px;
+}
+
+#input {
+    margin-bottom: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: alpha(@foreground, 0.05);
+    color: @foreground;
+    font-size: 15px;
+}
+
+#input placeholder {
+    color: alpha(@foreground, 0.5);
+}
+
+#list {
+    padding: 2px;
+}
+
+#entry {
+    padding: 8px 12px;
+    margin: 4px 0;
+    border-radius: 8px;
+    background-color: transparent;
+    color: @foreground;
+}
+
+#entry:selected {
+    background-color: @color2;
+    color: @background;
+}
+
+#text {
+    font-size: 13px;
+    color: inherit;
+}

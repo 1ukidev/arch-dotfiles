@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+
+swww img --transition-type center --transition-duration 2 --transition-fps 60 "$1"
+wal -i "$1"
