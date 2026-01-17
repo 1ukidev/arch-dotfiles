@@ -6,6 +6,9 @@
 !others/
 !others/**
 
+!.vimrc
+!.zshrc
+
 !.config/
 !.config/hypr/
 !.config/hypr/**
