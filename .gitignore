@@ -22,6 +22,8 @@
 !.config/kitty/**
 !.config/doom/
 !.config/doom/**
+!.config/zathura/
+!.config/zathura/**
 
 !.local/
 !.local/bin/

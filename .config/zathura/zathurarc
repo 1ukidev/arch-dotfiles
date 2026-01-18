@@ -1,0 +1,6 @@
+set default-bg "#111111"
+set default-fg "#eeeeee"
+
+set recolor true
+set recolor-lightcolor "#1d2021"
+set recolor-darkcolor "#ebdbb2"

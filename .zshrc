@@ -122,6 +122,7 @@ alias grep="rg --color always"
 alias cat="bat --theme=base16 --style=plain --paging=never"
 alias less="bat --theme=base16 --paging=always"
 alias fzl="fzf --preview='fzf-preview {}'"
+alias downloadmusic="yt-dlp -x --audio-format mp3 --audio-quality 0 --embed-metadata --embed-thumbnail -o '%(title)s.%(ext)s'"
 
 # Pacman
 alias install="sudo pacman -S --needed"
