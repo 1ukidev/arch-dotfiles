@@ -18,6 +18,10 @@
 !.config/waybar/**
 !.config/wofi/
 !.config/wofi/**
+!.config/kitty/
+!.config/kitty/**
+!.config/doom/
+!.config/doom/**
 
 !.local/
 !.local/bin/
