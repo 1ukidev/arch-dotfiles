@@ -115,6 +115,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Others
 alias v="vim"
+alias e="emacs"
 alias ls="exa --icons"
 alias sl="exa --icons"
 alias grep="rg --color always"
