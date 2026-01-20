@@ -24,6 +24,8 @@
 !.config/doom/**
 !.config/zathura/
 !.config/zathura/**
+!.config/fontconfig/
+!.config/fontconfig/**
 
 !.local/
 !.local/bin/
