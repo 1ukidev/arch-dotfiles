@@ -130,7 +130,7 @@ alias remove="sudo pacman -R"
 alias removeall="sudo pacman -Rs"
 alias update="sudo pacman -Sy"
 alias upgrade="sudo pacman -Syu"
-alias search="pacman -Ss"
+alias search="yay -Ss"
 alias clean="sudo rm -rf /var/cache/pacman/pkg/*; rm -rf ~/.cache/yay"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
