@@ -26,6 +26,8 @@
 !.config/zathura/**
 !.config/fontconfig/
 !.config/fontconfig/**
+!.config/mpv/
+!.config/mpv/**
 
 !.local/
 !.local/bin/
